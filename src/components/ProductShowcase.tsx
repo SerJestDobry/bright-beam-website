@@ -17,7 +17,7 @@ const products = [{
   name: "Taśma LED 15m z 24-przyciskowym panelem", 
   id: "tasma-led-15m",
   description: "15-metrowa taśma LED z 24-przyciskowym sterowaniem",
-  features: ["IP20", "Kontrola z aplikacji", "Multicolor", "Bluetooth", "Music sync", "Microphone", "Timer", "Zużycie: 6W", "30 LED/metr"],
+  features: ["IP20", "Kontrola z aplikacji", "Synchronizacja Bluetooth", "Synchronizacja z muzyką", "Detekcja głosu ",, "Zużycie: 6W", "30 LED/metr"],
   price: "329 zł",
   badge: "15m",
   icon: Smartphone,
