@@ -1,15 +1,17 @@
 import { Navigation } from "@/components/Navigation";
-import { Hero } from "@/components/Hero";
+import { ProductShowcase } from "@/components/ProductShowcase";
 import { Footer } from "@/components/Footer";
 
-const Index = () => {
+const Products = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
-      <Hero />
+      <div className="pt-20">
+        <ProductShowcase />
+      </div>
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default Products;
