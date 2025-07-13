@@ -7,7 +7,6 @@ import { Wifi, Smartphone, Palette, Timer, Mic, Music } from "lucide-react";
 const products = [{
   name: "Taśma LED 10m z 24-przyciskowym panelem",
   id: "tasma-led-10m",
-  description: "10-metrowa taśma LED z zaawansowanym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Synchronizacja Bluetooth", "Synchronizacja z muzyką", "Detekcja głosu ",, "Zużycie: 6W", "30 LED/metr"],
   price: "24,99 zł",
   badge: "Najczęsciej wybierane!",
@@ -24,7 +23,6 @@ const products = [{
 }, {
   name: "Taśma LED 15m z 44-przyciskowym panelem",
   id: "tasma-led-15m-premium",
-  description: "15-metrowa taśma LED z zaawansowanym 44-przyciskowym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Synchronizacja Bluetooth", "Synchronizacja z muzyką", "Detekcja głosu ",, "Zużycie: 6W", "30 LED/metr", "44 Przyciskowy kontroler"],
   price: "35,99 zł", 
   badge: "Premium",
