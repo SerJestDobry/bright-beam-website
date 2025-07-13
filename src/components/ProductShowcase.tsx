@@ -9,7 +9,7 @@ const products = [{
   id: "tasma-led-10m",
   description: "10-metrowa taśma LED z zaawansowanym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Synchronizacja Bluetooth", "Synchronizacja z muzyką", "Detekcja głosu ",, "Zużycie: 6W", "30 LED/metr"],
-  price: "249 zł",
+  price: "24,99 zł",
   badge: "Najczęsciej wybierane!",
   icon: Palette,
   color: "led-blue"
@@ -18,7 +18,7 @@ const products = [{
   id: "tasma-led-15m",
   description: "15-metrowa taśma LED z 24-przyciskowym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Synchronizacja Bluetooth", "Synchronizacja z muzyką", "Detekcja głosu ",, "Zużycie: 6W", "30 LED/metr"],
-  price: "329 zł",
+  price: "32,99 zł",
   badge: "Najlepsza oferta!",
   icon: Smartphone,
   color: "led-purple"
@@ -27,7 +27,7 @@ const products = [{
   id: "tasma-led-15m-premium",
   description: "15-metrowa taśma LED z zaawansowanym 44-przyciskowym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Synchronizacja Bluetooth", "Synchronizacja z muzyką", "Detekcja głosu ",, "Zużycie: 6W", "30 LED/metr", "44 Przyciskowy kontroler"],
-  price: "379 zł", 
+  price: "35,99 zł", 
   badge: "Premium",
   icon: Music,
   color: "led-green"
