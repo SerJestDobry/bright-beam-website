@@ -1,10 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "react-router-dom";
 import { Wifi, Smartphone, Palette, Timer, Mic, Music } from "lucide-react";
 
 const products = [{
   name: "Taśma LED 10m z 24-przyciskowym panelem",
+  id: "tasma-led-10m",
   description: "10-metrowa taśma LED z zaawansowanym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Multicolor", "Bluetooth", "Music sync", "Microphone", "Timer", "Zużycie: 6W", "30 LED/metr"],
   price: "249 zł",
@@ -13,6 +15,7 @@ const products = [{
   color: "led-blue"
 }, {
   name: "Taśma LED 15m z 24-przyciskowym panelem", 
+  id: "tasma-led-15m",
   description: "15-metrowa taśma LED z 24-przyciskowym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Multicolor", "Bluetooth", "Music sync", "Microphone", "Timer", "Zużycie: 6W", "30 LED/metr"],
   price: "329 zł",
@@ -21,6 +24,7 @@ const products = [{
   color: "led-purple"
 }, {
   name: "Taśma LED 15m z 44-przyciskowym panelem",
+  id: "tasma-led-15m-premium",
   description: "15-metrowa taśma LED z zaawansowanym 44-przyciskowym sterowaniem",
   features: ["IP20", "Kontrola z aplikacji", "Multicolor", "Bluetooth", "Music sync", "Microphone", "Timer", "Zużycie: 6W", "30 LED/metr"],
   price: "379 zł", 
@@ -68,10 +72,12 @@ export const ProductShowcase = () => {
                   <span className="text-3xl font-bold text-foreground">
                     {product.price}
                   </span>
-                  <Button variant="outline" className="group">
-                    View Details
-                    <Wifi className="w-4 h-4 group-hover:text-primary transition-colors" />
-                  </Button>
+                  <Link to={`/products/${product.id}`}>
+                    <Button variant="outline" className="group">
+                      View Details
+                      <Wifi className="w-4 h-4 group-hover:text-primary transition-colors" />
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </Card>)}
