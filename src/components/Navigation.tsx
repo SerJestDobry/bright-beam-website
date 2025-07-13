@@ -20,25 +20,16 @@ export const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
             <a href="#products" className="text-foreground hover:text-primary transition-colors">
-              Products
-            </a>
-            <a href="#features" className="text-foreground hover:text-primary transition-colors">
-              Features
-            </a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">
-              About
+              Produkty
             </a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
-              Contact
+              Kontakt
             </a>
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="ghost">
-              Sign In
-            </Button>
             <Button variant="glow">
-              Get Started
+              Zamów teraz
             </Button>
           </div>
 
@@ -60,35 +51,18 @@ export const Navigation = () => {
                 className="block text-foreground hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Products
-              </a>
-              <a 
-                href="#features" 
-                className="block text-foreground hover:text-primary transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                Features
-              </a>
-              <a 
-                href="#about" 
-                className="block text-foreground hover:text-primary transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                About
+                Produkty
               </a>
               <a 
                 href="#contact" 
                 className="block text-foreground hover:text-primary transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Contact
+                Kontakt
               </a>
               <div className="pt-4 space-y-2">
-                <Button variant="ghost" className="w-full">
-                  Sign In
-                </Button>
                 <Button variant="glow" className="w-full">
-                  Get Started
+                  Zamów teraz
                 </Button>
               </div>
             </div>
